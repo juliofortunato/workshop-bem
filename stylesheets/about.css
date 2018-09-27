@@ -1,0 +1,33 @@
+.about {
+  height: 100vh;
+  padding: 90px;
+  box-sizing: border-box;
+  background-image: url("../images/about-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.about__steps {
+  margin-top: 50px;
+  width: 40%;
+}
+
+.about__step {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: normal;
+  color: var(--brown-rust);
+}
+
+.about__description {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-size: 24px;
+  color: var(--mirage);
+}

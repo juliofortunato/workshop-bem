@@ -1,0 +1,87 @@
+.contact {
+  height: 100vh;
+  padding: 60px;
+  box-sizing: border-box;
+  background-image: url("../images/contact-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.contact__content {
+  padding-left: 10%;
+}
+
+.contact__title {
+  margin: 0;
+  font-size: 64px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: var(--bright-sun);
+  text-shadow: 3px 3px var(--mirage);
+}
+
+.contact__form {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__label {
+  font-size: 24px;
+  color: var(--concrete);
+  margin-top: 20px;
+}
+
+.contact__text-field {
+  border: 0;
+  border-radius: 5px;
+  height: 60px;
+  background-color: var(--metallic-bronze);
+  opacity: 0.8;
+  color: var(--concrete);
+  font-size: 28px;
+  font-family: var(--headline-font);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.contact__text-field--large {
+  height: 120px;
+  resize: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.contact__buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.contact__button {
+  border: 2px solid var(--bright-sun);
+  border-radius: 5px;
+  background-color: var(--bright-sun);
+  color: var(--metallic-bronze);
+  height: 60px;
+  width: 49%;
+  font-size: 28px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.contact__button:hover {
+  border-color: var(--concrete);
+  background-color: var(--mirage);
+  color: var(--concrete);
+}
+
+.contact__button--secondary {
+  background-color: transparent;
+  color: var(--bright-sun);
+}

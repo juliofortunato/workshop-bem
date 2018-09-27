@@ -1,0 +1,13 @@
+:root {
+  --bright-sun: #ffd43b;
+  --concrete: #f2f2f2;
+  --mirage: #1b1f2b;
+  --brown-rust: #9f5537;
+  --metallic-bronze: #472c1c;
+
+  --logo-font: 'Damion', cursive;
+  --headline-font: 'Cormorant Garamond', serif;
+  --default-font: 'Rubik', sans-serif;
+
+  font-family: var(--default-font);
+}

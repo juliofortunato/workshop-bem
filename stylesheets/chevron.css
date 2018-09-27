@@ -1,0 +1,19 @@
+.chevron {
+  text-align: center;
+  position: absolute;
+  left: calc(50% - 30px);
+  right: auto;
+  bottom: 50px;
+  width: 60px;
+  fill: var(--concrete);
+}
+
+.chevron:hover {
+  fill: var(--bright-sun);
+}
+
+.chevron-top {
+  width: 30px;
+  fill: var(--bright-sun);
+  transform: rotate(180deg);
+}
