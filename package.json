@@ -1,0 +1,19 @@
+{
+  "name": "workshop-bem",
+  "version": "1.0.0",
+  "description": "Workshop sobre a metodologia BEM para a Fatec Sorocaba",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliofortunato/workshop-bem.git"
+  },
+  "author": "Júlio Fortunato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliofortunato/workshop-bem/issues"
+  },
+  "homepage": "https://github.com/juliofortunato/workshop-bem#readme"
+}
