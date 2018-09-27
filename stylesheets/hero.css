@@ -1,10 +1,10 @@
 .hero {
+  position: relative;
+  box-sizing: border-box;
   height: 100vh;
   padding: 90px;
-  box-sizing: border-box;
   background-image: url("../images/hero-bg.jpg");
   background-position: center;
-  position: relative;
 }
 
 .hero__call-to-action {
@@ -22,10 +22,10 @@
 }
 
 .hero__text {
+  color: var(--concrete);
   font-family: var(--headline-font);
   font-size: 80px;
   font-weight: normal;
-  color: var(--concrete);
 }
 
 .hero__button {
@@ -33,12 +33,12 @@
   justify-content: center;
   width: 400px;
   padding: 20px;
-  background-color: var(--bright-sun);
   border: 0;
+  background-color: var(--bright-sun);
   border-radius: 5px;
+  color: var(--mirage);
   font-family: var(--default-font);
   font-size: 40px;
-  color: var(--mirage);
   text-transform: uppercase;
   cursor: pointer;
 }

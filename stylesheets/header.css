@@ -6,10 +6,10 @@
 
 .header__logo {
   margin: 0;
+  color: var(--bright-sun);
   font-family: var(--logo-font);
   font-size: 60px;
   font-weight: normal;
-  color: var(--bright-sun);
   text-transform: lowercase;
 }
 
@@ -25,9 +25,9 @@
 .header__navigation-item {
   display: inline;
   margin-left: 20px;
+  color: var(--concrete);
   list-style: none;
   font-size: 24px;
-  color: var(--concrete);
 }
 
 .header__button {

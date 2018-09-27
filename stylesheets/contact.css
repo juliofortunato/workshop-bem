@@ -1,14 +1,14 @@
 .contact {
-  height: 100vh;
-  padding: 60px;
-  box-sizing: border-box;
-  background-image: url("../images/contact-bg.jpg");
-  background-position: center;
-  background-size: cover;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 60px;
+  background-image: url("../images/contact-bg.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 .contact__content {
@@ -17,37 +17,37 @@
 
 .contact__title {
   margin: 0;
+  color: var(--bright-sun);
   font-size: 64px;
   font-weight: normal;
-  text-transform: uppercase;
-  color: var(--bright-sun);
   text-shadow: 3px 3px var(--mirage);
+  text-transform: uppercase;
 }
 
 .contact__form {
-  width: 100%;
-  margin-top: 50px;
   display: flex;
   flex-direction: column;
+  width: 100%;
+  margin-top: 50px;
 }
 
 .contact__label {
-  font-size: 24px;
-  color: var(--concrete);
   margin-top: 20px;
+  color: var(--concrete);
+  font-size: 24px;
 }
 
 .contact__text-field {
+  height: 60px;
+  padding-right: 10px;
+  padding-left: 10px;
   border: 0;
   border-radius: 5px;
-  height: 60px;
   background-color: var(--metallic-bronze);
   opacity: 0.8;
   color: var(--concrete);
-  font-size: 28px;
   font-family: var(--headline-font);
-  padding-left: 10px;
-  padding-right: 10px;
+  font-size: 28px;
 }
 
 .contact__text-field--large {
@@ -64,12 +64,12 @@
 }
 
 .contact__button {
+  width: 49%;
+  height: 60px;
   border: 2px solid var(--bright-sun);
   border-radius: 5px;
   background-color: var(--bright-sun);
   color: var(--metallic-bronze);
-  height: 60px;
-  width: 49%;
   font-size: 28px;
   text-transform: uppercase;
   cursor: pointer;

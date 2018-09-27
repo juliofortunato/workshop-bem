@@ -1,24 +1,24 @@
 .footer {
+  position: absolute;
   bottom: 0;
-  background-color: #000;
-  height: 100px;
-  width: 100%;
-  opacity: 0.75;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 90px;
-  padding-right: 90px;
-  position: absolute;
   box-sizing: border-box;
+  width: 100%;
+  height: 100px;
+  padding-right: 90px;
+  padding-left: 90px;
+  background-color: #000;
+  opacity: 0.75;
 }
 
 .footer__logo {
   margin: 0;
+  color: var(--bright-sun);
   font-family: var(--logo-font);
   font-size: 50px;
   font-weight: normal;
-  color: var(--bright-sun);
   text-transform: lowercase;
 }
 
@@ -33,9 +33,9 @@
 }
 
 .footer__top-text {
+  margin-right: 10px;
   color: var(--bright-sun);
   text-transform: uppercase;
-  margin-right: 10px;
 }
 
 .footer__link {
