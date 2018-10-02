@@ -1,6 +1,8 @@
 # workshop-bem
 Workshop sobre a metodologia BEM para a Fatec Sorocaba
 
+![](https://media.giphy.com/media/yYSSBtDgbbRzq/giphy.gif)
+
 ## About this repo
 
 There are three different branches: `master`, `html-only` and `final`.
